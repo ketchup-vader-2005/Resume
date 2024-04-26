@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1713924840.06392 "main.bcf" "main.bbl" "main" 1714146251.41733 0
-  "main.bcf" 1714146251.22701 108276 87848237bcc8e57609373a3acf4957e9 "pdflatex"
+["biber main"] 1713924840.06392 "main.bcf" "main.bbl" "main" 1714162876.73103 0
+  "main.bcf" 1714162876.54397 108276 87848237bcc8e57609373a3acf4957e9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1714146249.06912 "/Users/faizshaikh/Documents/LaTex/Resume Updated/main.tex" "main.pdf" "main" 1714146251.4178 0
-  "/Users/faizshaikh/Documents/LaTex/Resume Updated/main.tex" 1714146248.86124 3542 90c889add945f3b00d4dccc2f48d98ba ""
+["pdflatex"] 1714162874.44395 "/Users/faizshaikh/Documents/LaTex/Resume Updated/main.tex" "main.pdf" "main" 1714162876.73149 0
+  "/Users/faizshaikh/Documents/LaTex/Resume Updated/main.tex" 1714162875.88268 3542 90c889add945f3b00d4dccc2f48d98ba ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -260,11 +260,11 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713792044 8222919 224a6feb73ab0d5ea874a5dbbd2a9d94 ""
   "/usr/local/texlive/2024/texmf.cnf" 1713791876.54025 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "altacv.cls" 1712374902 14448 8b134101200d583b9cf54949543acab8 ""
-  "main.aux" 1714146251.22208 310 12bc1a881465bcdd2f402c92b1d4a4b1 "pdflatex"
+  "main.aux" 1714162876.53922 310 12bc1a881465bcdd2f402c92b1d4a4b1 "pdflatex"
   "main.bbl" 1713924842.27539 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1714146251.22813 2398 da8714bf7646178f704eb339c0b7074a "pdflatex"
-  "main.tex" 1714146248.86124 3542 90c889add945f3b00d4dccc2f48d98ba ""
-  "pdfa.xmpi" 1714146249.87702 5042 d65cdacfede623817b59ccbbb3bf574d "pdflatex"
+  "main.run.xml" 1714162876.54503 2398 da8714bf7646178f704eb339c0b7074a "pdflatex"
+  "main.tex" 1714162875.88268 3542 90c889add945f3b00d4dccc2f48d98ba ""
+  "pdfa.xmpi" 1714162875.22904 5042 f1754a3f087a617a526f40a1a6370c21 "pdflatex"
   "pubs-num.tex" 1712374902 412 935a997f7bf86333b56db41d4e82326c ""
   (generated)
   "main.aux"
