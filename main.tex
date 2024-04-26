@@ -1,0 +1,150 @@
+\documentclass[11pt,letterpaper,ragged2e,withhyper]{altacv}
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{bookmark}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{Black}{HTML}{000000}
+\colorlet{heading}{Black}
+\colorlet{headingrule}{Black}
+\colorlet{tagline}{LightGrey}
+\colorlet{accent}{Black}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+\input{pubs-num}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Faiz Shaikh}
+\tagline{\small{First year Electrical Engineering student\\ Hardworking, passionate for Engineering}}
+
+\personalinfo{%
+  \email{shaikh.faiz@student.lut.fi}
+  \location{Lappeenranta, Finland}
+  \linkedin{faiz-shaikh-8a6180285}
+   \phone{+358-44-929-5143, +91-8830017431}
+}
+\makecvheader
+\AtBeginEnvironment{itemize}{\small}
+\columnratio{0.6}
+
+\begin{paracol}{2}
+
+% ---------------------------- EDUCATION -----------------------
+
+\cvsection{Education}
+
+\cvevent{B.Sc.\ in Electrical Engineering}{LUT}{Sept 2023 -- current}{Grade Point Average - 4,76}
+
+\divider
+
+% --------------------- Awards and Recognitions --------------------
+
+\cvsection{Awards and Recognitions}
+\cvachievement{\faTrophy}{SAT, 2022}{
+Score: \textbf{1440}, SAT User Percentile: \textbf{95th}
+}
+
+\divider
+
+\cvachievement{\faTrophy}{LUT Scholarship}{
+Received a scholarship of \textbf{\texteuro 1000} from LUT
+}
+
+\divider
+
+\cvachievement{\faTrophy}{Joint Entrance Exam}{
+Cleared Joint Entrance Exam (JEE) Mains 2023 with All India Rank (AIR) 
+\textbf{23460}, Percentile: \textbf{98th}
+}
+
+\cvachievement{\faTrophy}{Vellore Institute of Technology Engineering Entrance Examination}{
+2023, All India Rank (AIR): \textbf{2954}
+}
+
+\cvachievement{\faTrophy}{Manipal Entrance Test}{
+2023, All India Rank (AIR): \textbf{921}
+}
+
+\cvachievement{\faTrophy}{SENIOR SCHOOL CERTIFICATE EXAMINATION, 2023}{
+CBSE, \textbf{96\%} of total marks scored  
+}
+\divider
+
+\switchcolumn
+
+% -------------------------- LANGUAGES ---------------------
+\cvsection{Languages}
+
+\begin{itemize}
+    \item \textbf{English} - C1, Advanced
+    \item \textbf{Hindi} - Fluent, Native proficiency
+    \item \textbf{Finnish} - Finnish Culture and Language 1 and 2
+    \item \textbf{French} - Elementary proficiency
+\end{itemize}
+
+\divider
+
+% ------------------------ STRENGHTS ----------------------
+
+\cvsection{Strengths}
+
+\cvtag{Self-Motivated}
+\cvtag{Time Management}\\
+\cvtag{Analytical Thinking}\\
+
+\divider
+
+% ------------------------- TECH SKILLS --------------------
+
+\cvsection{Tech Skills}
+
+\cvtag{Python}
+\cvtag{C}
+\cvtag{MATLAB}
+\cvtag{LaTex}
+
+\divider
+
+% ----------------------- LEISURE ACTIVITIES ----------------------
+
+\cvsection{Leisure Activities}
+
+\cvtag{Football}
+\cvtag{Painting}
+\cvtag{Sketching}
+
+\divider
+
+\end{paracol}
+
+\end{document}
